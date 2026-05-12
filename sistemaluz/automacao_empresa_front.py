@@ -27,7 +27,7 @@ def criar_interface():
 
     janela = tk.Tk()
     janela.title("Luz do Bem - Automação de Pedidos")
-    janela.geometry("560x560")
+    janela.geometry("760x560")
     janela.resizable(False, False)
 
     titulo = tk.Label(janela, text="Automação de Pedidos - Luz do Bem", font=("Helvetica", 14, "bold"))
